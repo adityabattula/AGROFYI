@@ -1,0 +1,66 @@
+.container{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width:440px;
+
+    height: 50%;
+    background:green;
+    color:greenyellow;
+    border-radius: 30px;
+   
+    box-shadow: 0 25px 20px -20px grey;
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: 1% 2.6%;
+    
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+
+}
+nav ul li::after{
+    content:"";
+    background: white;
+    width: 90%;
+    height: 120%;
+    border-radius:30px;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.3s, opacity 0.5s;
+    
+}
+nav ul li:hover{
+    color: green;
+    opacity: 1;
+    
+
+}
+nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color:greenyellow;
+}
+nav a:hover{
+    color:green;
+}
