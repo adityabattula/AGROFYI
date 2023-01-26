@@ -1,66 +1,61 @@
+body{
+    background-image: url('nature-product-backdrop-farm-sunlight.jpg');
+    background-repeat: no-repeat;
+   
+}
+h1{
+    padding-right: 600px;
+    position: absolute;
+      top: -13px;
+      left: 15px;
+}
 .container{
-    background-color: white;
+    
     display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+
+    align-items: right;
+    justify-content: right;
 }
 
 nav{
-    width:440px;
-
+    width:500px;
     height: 50%;
-    background:green;
-    color:greenyellow;
+    color:rgb(218, 255, 218);
     border-radius: 30px;
-   
-    box-shadow: 0 25px 20px -20px grey;
-    
+    background-color: transparent;
 }
-nav ul li{
+nav ul{
+    padding-left: 35px;
+}
+.name{
+    align-items: left;
+}
+.menu{
     display: inline-block;
-    padding: 1% 2.6%;
-    
-    align-items: center;
-    font-size: 18px;
-    font-weight: 500;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    padding:7px 17px;
+    border: 1.5px solid transparent;
     cursor: pointer;
-    position: relative;
-    z-index: 2;
-    transition: color 0.5s;
 
+    border-radius: 30px;
 }
-nav ul li::after{
-    content:"";
-    background: white;
-    width: 90%;
-    height: 120%;
-    border-radius:30px;
-    position: absolute;
-    top: 100%;
-    left: 40%;
-    transform: translate(-40%,-50%);
-    z-index: -1;
-    opacity: 0;
-    transition: top 0.3s, opacity 0.5s;
-    
+.logo{
+    align-items: left;
 }
 nav ul li:hover{
-    color: green;
-    opacity: 1;
-    
-
+    background-color:rgb(218, 255, 162);
+    transition: background-color 0.5s;
+    color:green;
 }
-nav ul li:hover::after{
-    top: 50%;
-    opacity: 1;
-    
-
-}
-nav a{
+nav ul li a{
     text-decoration: none;
-    color:greenyellow;
+    color:green;
 }
-nav a:hover{
+nav ul li a:hover{
+    text-decoration: none;
     color:green;
 }
