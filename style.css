@@ -59,3 +59,39 @@ nav ul li a:hover{
     text-decoration: none;
     color:green;
 }
+.prod{
+    list-style-type: none;
+    padding-top: 6%;
+    display: inline-block;
+    
+}
+.ims{
+    width: 295px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    
+    align-items: center;
+      
+    
+    
+}
+.container1{
+    
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #555;
+    
+}
+.container1 p1{
+    padding-left: 100px;
+    color:green;
+    font-size: 30px;
+    text-align: center;
+    
+}
